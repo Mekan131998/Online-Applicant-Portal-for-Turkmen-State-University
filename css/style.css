@@ -1,0 +1,222 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    min-width: 320;
+    color: #1d1d1d;
+	
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+section{
+    padding: 100px 0;
+}
+
+
+h3{
+    font-style: italic;
+    font-size: 42px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', serif;
+}
+h4{
+    font-weight: 600px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+/*Header          */
+.main-header{
+	background:  url(../img/header.png) center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	min-height: 600px;
+	
+}
+#space{
+	min-height: 200px;
+}
+
+.main-header h1{
+	font-style: italic;
+	font-family: 'Palatino Linotype', 'Book Antiqua', serif;
+    min-width: 320;
+    color: #1d1d1d;
+	
+}
+
+#name{
+	position: absolute;
+	left: 30%;
+	top: 20%;
+	font-size:90px;
+	
+}
+
+.main-header-text {
+	position:absolute;
+	left: 50%;
+	top:40%;
+	max-width: 550px;
+	font-size: 14px;
+}
+
+.main-header ul li a{
+	
+	font-size: 17px;
+	color: white;
+}
+
+.btn{
+	min-width: 150px;
+	font-size: 14px;
+	font-weight: 600px;
+	text-decoration-color: white;
+	text-transform: uppercase;
+	padding: 10px;
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-top: 5px;
+	box-shadow: 0 4px 16px rgpa(0,0,0, .35);
+	transition: all 0.5s;
+}
+.btn:hover{
+	transform: scale(1.1);
+}
+
+.main-header a{
+	color: darkblue;
+	text-decoration-line: none;
+}
+
+.btn a{
+	color: white;
+}
+.btn-pink{
+	background-color: rgb(19, 122, 207);
+	box-shadow: 0 5px 10px rgb(0 0 0 / 0.3);
+}
+
+.btn-violet {
+	background-color: rgb(238, 15, 145);
+	box-shadow: 0 5px 10px rgb(0 0 0 / 0.3);
+}
+
+nav ul{
+	font-size: 18px;
+	padding-right: 100px;
+
+}
+.navbar{
+	background: none;
+}
+/* More-info section*/
+
+.more-info{
+	background: url(../img/section.png) center no-repeat;
+	background-size: cover;
+	
+}
+
+.more-info .essential {
+	min-width: 60px;
+	min-height: 90px;
+	padding: 10px 10px 10px 10px;
+	border: solid rgb(0, 132, 255);
+	border-radius: 20px;
+	margin-left:10px;
+	text-align: center;
+}
+
+
+
+footer{
+	text-align: center;
+	background: url(../img/wave\ \(1\).svg) center no-repeat ;
+	background-size: cover;
+	color: white;
+	min-height: 400px;
+	
+}
+
+.foot .container{
+	position: relative;
+	top: 150px;
+	margin-top: 10px;
+	align-items: start;
+}
+.dal{
+	position: relative;
+	top: 100px;
+}
+
+/*  Documents */
+
+
+
+.mag{
+	text-align: center;
+	font-family: "monserat", serifl
+}
+
+.mag-nav{
+	position: relative;
+	
+}
+
+/* Gorkeziji */
+
+.Ugrukdyr{
+	display: grid;
+	grid-template-rows: 2fr 2fr 2fr 2fr;
+	grid-row: 1fr;
+	grid-auto-flow: row;
+	justify-items: center;
+	justify-content: center;
+	
+}
+
+span {
+    background-color: #0870ac;
+	margin-left: auto;
+	margin: 5px;
+    background-position: top;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    position: absolute;
+	justify-items: center;
+}
+
+.gorkez .col .inner{
+	border:#0870ac solid 2px;
+	border-radius: 20px;
+	min-height: 300px;
+	margin-top: 100px;
+	padding-top: 20px;
+	padding-left: 10px;
+	transition: 0.5s;
+}
+
+.gorkez .col .inner:hover{
+	transform: translateY(10px);
+	color:white;
+	background-color: #0870ac;
+}
+
+.Ugrukdyr{
+	max-height: 600px;
+}
+
+/* Info input */
+.info-input{
+	min-height: 600px;
+	font-size: 14px;
+	
+}
+
+fieldset{
+	font-size: 14px;
+	border:#1d1d1d solid;
+}

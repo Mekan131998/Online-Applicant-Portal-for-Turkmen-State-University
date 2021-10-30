@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/style.css" rel="stylesheet">
+
+    <title>Fill_Forms</title>
+  </head>
+  <body class="maglumat">
+	  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+				  <div class="container-fluid">
+					<a class="navbar-brand" href="#">Dalaşgär Online</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Öwren
+						  </a>
+						  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#">TDU barada</a></li>
+							<li><a class="dropdown-item" href="#">TDU-aky hünärler</a></li>
+							<li><a class="dropdown-item" href="#">Tabşyrmak üçin zerur resminamalar</a></li>
+							<li><a class="dropdown-item" href="#">Haýsy dersden taýynlanmaly</a></li>
+						  </ul>
+						</li>
+						  <li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Online tabşyr
+						  </a>
+						  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#">Prosese düşünmek</a></li>
+							<li><a class="dropdown-item" href="#">Portalda ilkinji gezek tabşyrýanlar</a></li>
+							<li><a class="dropdown-item" href="#">Dolanyp gelen ulanyjylar</a></li>
+						  </ul>
+						</li>
+						
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Kömek
+						  </a>
+						  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#">Iň köp soralan soraglar</a></li>
+							<li><a class="dropdown-item" href="#">Biziň bilen habarlaşmak</a></li>
+						  </ul>
+						</li>
+					  </ul>
+					</div>
+				  </div>
+				</nav>
+				
+				<div class="row mb-3 info-input">
+				  <div class="col-md-2 themed-grid-col">.col-md-3</div>
+				  <div class="col-md-8 themed-grid-col">
+					<h1 class="mag">Aşakdaky maglumatlary giriziň</h1>
+					<nav class="mag-nav">
+					  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+						<button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Passport</button>
+						<button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Atestat</button>
+						<button class="nav-link" id="nav-contact1-tab" data-bs-toggle="tab" data-bs-target="#nav-contact1" type="button" role="tab" aria-controls="nav-contact1" aria-selected="false">Hünär saýla</button>
+						<button class="nav-link" id="nav-contact2-tab" data-bs-toggle="tab" data-bs-target="#nav-contact2" type="button" role="tab" aria-controls="nav-contact2" aria-selected="false">Resminamalary ýükle</button>
+								
+					  </div>
+					  </nav>
+						<div class="tab-content" id="nav-tabContent">
+						  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+						  <form class="row g-3 needs-validation" novalidate>
+							  <fieldset>
+								  <legend>Şahsyýet</legend>
+								  <div class="col-md-4">
+									<label for="validationCustom01" class="form-label">Ady</label>
+									<input type="text" class="form-control" id="validationCustom01" value="" required>
+									<div class="valid-feedback">
+									  Dogry!
+									</div>
+								  </div>
+								  <div class="col-md-4">
+									<label for="validationCustom02" class="form-label">Familiýasy</label>
+									<input type="text" class="form-control" id="validationCustom02" value="" required>
+									<div class="valid-feedback">
+									  Dogry!
+									</div>
+								  </div>
+								  <div class="col-md-4">
+									<label for="validationCustomUsername" class="form-label">Atasynyň ady</label>
+									<div class="input-group has-validation">
+									  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend">
+									</div>
+								  </div>
+								  <div class="col-md-4">
+									<label for="validationCustom03" class="form-label">Milleti</label>
+									<input type="text" class="form-control" id="validationCustom03" required>
+									<div class="invalid-feedback">
+									  milletiňi giriz
+									</div>
+								  </div>
+									<div class="col-md-3">
+									<label for="validationCustom04" class="form-label">Jynsy:</label>
+									  <br/>
+										<div class="form-check form-check-inline">
+												  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+												  <label class="form-check-label" for="inlineRadio1">Erkek</label>
+												</div>
+												<div class="form-check form-check-inline">
+												  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+												  <label class="form-check-label" for="inlineRadio2">Zenan</label>
+												</div>
+								
+									<div class="invalid-feedback">
+									  milletiňi giriz
+									</div>
+								  </div>
+								  
+							  <div class="col-md-1">
+									  <label for="validationCustom04" class="form-label">Passport Seria:</label>
+									  <select class="form-select" aria-label="Default select example" required>
+									  <option selected>sayla...</option>
+									  <option value="1">I-MR</option>
+									  <option value="2">II-MR</option>
+									  <option value="3">I-AG</option>
+									  <option value="4">II-AG</option>
+									  <option value="5">I-DZ</option>
+										<option value="6">II-DZ</option>
+										<option value="7">I-LB</option>
+										<option value="8">II-LB</option>
+										<option value="9">I-BN</option>
+										<option value="10">II-BN</option>
+										<option value="11">I-AH</option>
+										<option value="12">II-AH</option>
+									</select>
+							  </div>
+									  
+							  <div class="col-md-2">
+								  <label for="validationCustom15" class="form-label">Passport No:</label>
+								<input type="text" class="form-control" id="validationCustom15" required>
+							  </div>
+							  <br/>
+							  <div class="col3">
+								  <h5>Doglan ýeri:</h5>
+							  </div>
+								  <div class="col-md-3">
+									<label for="validationCustom05" class="form-label">Welaýaty</label>
+									<select class="form-select" id="validationCustom04" required>
+									  <option selected disabled value="">Saýla...</option>
+									  <option value="0">Mary</option>
+									  <option value="1">Ahal</option>
+									  <option value="2">Lebap</option>
+									  <option value="3">Daşoguz</option>
+									  <option value="4">Balkan</option>
+									  <option value="5">Aşgabat</option>
+									</select>
+									<div class="invalid-feedback">
+									  Haýyş welaýaty saýlaň
+									</div>
+								  </div>
+								  <div class="col-md-3">
+									<label for="validationCustom06" class="form-label">Etraby</label>
+									<input type="text" class="form-control" id="validationCustom05" required>
+									<div class="invalid-feedback">
+									  Haýyş etraby giriziň
+									</div>
+								  </div>
+									<div class="col-md-3">
+									  <label for="validationCustom07" class="form-label">Doglan senesi:</label>
+										<input class="form-control" type="date" name="date" 
+											placeholder="DD-MM-YYYY" value="" required>
+								  </div>
+							  <br/>
+							</fieldset>
+							  <div class="col4">
+								  <h5>Häzirki wagtda ýaşaýan ýeri:</h5>
+							  </div>
+								  <div class="col-md-3">
+									<label for="validationCustom08" class="form-label">Welaýaty</label>
+									<select class="form-select" id="validationCustom04" required>
+									  <option selected disabled value="">Saýla...</option>
+									  <option value="0">Mary</option>
+									  <option value="1">Ahal</option>
+									  <option value="2">Lebap</option>
+									  <option value="3">Daşoguz</option>
+									  <option value="4">Balkan</option>
+									  <option value="5">Aşgabat</option>
+									</select>
+									<div class="invalid-feedback">
+									  Haýyş welaýaty saýlaň
+									</div>
+								  </div>
+								  <div class="col-md-3">
+									<label for="validationCustom09" class="form-label">Etrap/Şäher</label>
+									<input type="text" class="form-control" id="validationCustom05" required>
+									<div class="invalid-feedback">
+									  Haýyş etraby giriziň
+									</div>
+								  </div>
+									<div class="col-md-3">
+									<label for="validationCustom10" class="form-label">Geňeşlik</label>
+									<input type="text" class="form-control" id="validationCustom05" >
+								  </div>
+									<div class="col-md-3">
+									<label for="validationCustom11" class="form-label">Köçe ady</label>
+									<input type="text" class="form-control" id="validationCustom05" required>
+									<div class="invalid-feedback">
+									  Haýyş köçe adyny giriziň
+									</div>
+								  </div>
+									<div class="col-md-3">
+									<label for="validationCustom12" class="form-label">Jaý No:</label>
+									<input type="text" class="form-control" id="validationCustom05" required>
+									<div class="invalid-feedback">
+									  Jaý nomerini giriziň
+									</div>
+								  </div>
+									<div class="col-md-3">
+									<label for="validationCustom13" class="form-label">Otag No:</label>
+									<input type="text" class="form-control" id="validationCustom05">
+								  </div>				  	
+								  <div class="col-12">
+									<div class="form-check">
+									  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+									  <label class="form-check-label" for="invalidCheck">
+										Şertler we düzgünler bilen ylalaşýaryn
+									  </label>
+									  <div class="invalid-feedback">
+										Tassyklamaklyk üçin düzgünler bilen ylalaşmaly.
+									  </div>
+									</div>
+								  </div>
+								  <div class="col-12">
+									<button class="btn btn-primary" type="submit">Tassykla</button>
+								  </div>
+								</form>
+						  </div>
+						  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						  
+						  <h5>Soňky tamamlan orta/ýörite orta mekdebiniň salgysy:</h5>
+								  <form class="row g-3 needs-validation" novalidate>
+									   <div class="col-md-3">
+										<label for="validationCustom04" class="form-label">Welaýaty</label>
+										<select class="form-select" id="validationCustom04" required>
+										  <option selected disabled value="">Saýla...</option>
+											  <option value="0">Mary</option>
+											  <option value="1">Ahal</option>
+											  <option value="2">Lebap</option>
+											  <option value="3">Daşoguz</option>
+											  <option value="4">Balkan</option>
+											  <option value="5">Aşgabat</option>
+										</select>
+										<div class="invalid-feedback">
+										 Welaýaty saýla.
+										</div>
+									  </div>
+									
+									  <div class="col-md-3">
+										<label for="validationCustom02" class="form-label">Etrap/Şäher</label>
+										<input type="text" class="form-control" id="validationCustom02" value="" required>
+										<div class="valid-feedback">
+										  Dogry!
+										</div>
+									  </div>
+									<div class="col-md-2">
+										<h5>Mekdebiň görnüşi</h5>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+											  <label class="form-check-label" for="inlineRadio1">Adaty</label>
+											</div>
+											<div class="form-check form-check-inline">
+											  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+											  <label class="form-check-label" for="inlineRadio2">Ýörite</label>
+											</div>
+									</div>
+									<div class="col-md-2">
+										<label for="validationCustom05" class="form-label">Mekdep No</label>
+										<input type="text" class="form-control" id="validationCustom05" required>
+										<div class="invalid-feedback">
+										  Mekdep No giriz.
+										</div>
+									</div>
+									  <div class="col-md-3">
+										<label for="validationCustom03" class="form-label">okuwa başlan senesi:</label>
+										<input class="form-control" type="date" name="date" 
+											placeholder="aý/gün/ýyl" value="" required>
+										
+										
+										<div class="invalid-feedback">
+										  okuwa başlan senäni giriz.
+										</div>
+									  </div>
+									<div class="col-md-3">
+										<label for="validationCustom03" class="form-label">okuwy tamamlan senesi:</label>
+										<input class="form-control" type="date" name="date" 
+											placeholder="aý/gün/ýyl" value="" required>
+																	
+										<div class="invalid-feedback">
+										  okuwy tamamlan senani giriz.
+										</div>
+									  </div>
+									 <br/>
+									<h5>Orta bilim hakynda şahadatnama:</h5>
+									<div class="col-md-1">
+											<label for="validationCustomUsername" class="form-label">Kody</label>
+											<div class="input-group has-validation">
+											  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+											  <div class="invalid-feedback">
+												Kodyny giriz.
+											  </div>
+											</div>
+										  </div>
+									<div class="col-md-3">
+										<label for="validationCustom05" class="form-label">Seriýa nomeri:</label>
+										<input type="text" class="form-control" id="validationCustom05" required>
+										<div class="invalid-feedback">
+										  Seriýa nomerini giriz.
+										</div>
+									  </div>
+									<div class="col-md-3">
+										<label for="validationCustom03" class="form-label">Şahadatnamanyň ýazylan senesi:</label>
+										<input class="form-control" type="date" name="date" 
+											placeholder="aý/gün/ýyl" value="" required>
+																	
+										<div class="invalid-feedback">
+										  Şahadatnamanyň ýazylan senesini giriziň.
+										</div>
+									  </div>
+									<div class="col-md-3">
+										<label for="validationCustom05" class="form-label">Ortaça baha:</label>
+										<input type="text" class="form-control" id="validationCustom05" required>
+										<div class="invalid-feedback">
+										  Ortaça bahaňyzy giriziň.
+										</div>
+									  </div>
+									  <div class="col-12">
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+										  <label class="form-check-label" for="invalidCheck">
+											Düzgünler we talaplar bilen ylalaşýaryn.
+										  </label>
+										  <div class="invalid-feedback">
+											Tassyklamazdan ozal siz hökman düzgünler bilen ylalaşmaly.
+										  </div>
+										</div>
+									  </div>
+									  <div class="col-12">
+										<button class="btn btn-primary" type="submit">Tassykla</button>
+									  </div>
+									</form>
+						  </div>
+						  <div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact1-tab">
+						  
+						  
+							  
+						  <form class="row g-3 needs-validation" novalidate>
+									<div class="col-md-5">
+									<label for="col-md-3" class="tolegli-tolegsiz">Hünärmen maksatnamasy</label>
+									<br/>
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+									  <label class="form-check-label" for="inlineRadio1">Býudžet esasda</label>
+									</div>
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+									  <label class="form-check-label" for="inlineRadio2">Tölegli esasda</label>
+									</div>
+								  </div>
+									<div class="col-md-5">
+									<label for="col-md-3" class="tolegli-tolegsiz">Bakalawr maksatnamasy</label>
+									<br/>
+									
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+									  <label class="form-check-label" for="inlineRadio2">Tölegli esasda bakalawr</label>
+									</div>
+								  </div>
+								  <div class="col-md-3">
+									<label for="validationCustom44" class="form-label">Ugurlar</label>
+									<select class="form-select" id="validationCustom44" required>
+									  <option selected disabled value="">Saýla...</option>
+										  <option value="mm">Matematika we mehanika</option>
+										<option value="fiz">Fizika we astronomiýa</option>
+										<option value="inf">Informatika we hasaplaýyş tehnikasy</option>
+										<option value="bio">Biologiýa ylymlary</option>
+										<option value="him">Himiýa</option>
+										<option value="earth">Ýeri öwreniş ylymlary</option>
+										<option value="psih">Psihologiýa ylymlary</option>
+										<option value="taryh">Taryh we arheologiýa</option>
+										<option value="filosof">Filosofiýa, etika we din öwreniş</option>
+										<option value="ylahyýet">Ylahyýet</option>
+										<option value="syyasat">Syýasaty ylymlary we sebit öwreniş</option>
+										<option value="dil">Dil bilimi we edebiýaty</option>
+										<option value="zurnalist">Köpçülikleýin habar beriş serişdereleri we maglumat kitaphana işi</option>
+										<option value="hukuk">Hukuk işi</option>
+										<option value="bakalawr">Bilim we pedagogika ylymlary</option>
+									</select>
+									<div class="invalid-feedback">
+									  Ugury saýla.
+									</div>
+								  </div>
+								  <div class="col-md-3">
+									<label for="validationCustom45" class="form-label">Hünärler</label>
+									<select class="form-select" id="validationCustom45" required>
+									  <!--<option selected disabled value="">Saýla...</option>
+										<option value="mm1">matematika</option>
+										<option value="mm2">amaly matematika we informatika</option>
+										<option value="fiz1">fizika</option>
+										<option value="fiz2">astronomiýa</option>
+										<option value="fiz3">radiofizika we elektronika</option>
+										<option value="inf1">maglumat ulgamlary we tehnologiýalary</option>
+										<option value="bio1">biologiýa</option>
+										<option value="him1">himiýa</option>
+										<option value="earth1">geografiýa</option>
+										<option value="earth2">kartografiýa</option>
+										<option value="earth3">meteorologiýa</option>
+										<option value="earth4">ekologiýa</option>
+										<option value="psih1">psihologiýa</option>
+										<option value="taryh1">taryh</option>
+										<option value="taryh2">arheologiýa</option>
+										<option value="filosof1">fiosofiýa</option>
+										<option value="ylahy1">ylahyýet</option>
+										<option value="syýasat1">syýasaty öwreniş</option>
+										<option value="syýasat2">gündogary öwreniş</option>
+										<option value="dil1">türkmen dili we edebiýaty</option>
+										<option value="dil2">iňlis dili we edebiýaty</option>
+										<option value="dil3">nemes dili we edebiýaty</option>
+										<option value="dil4">fransuz dili we edebiýaty</option>
+										<option value="dil5">italýan dili we edebiýaty</option>
+										<option value="dil6">arap dili we edebiýaty</option>
+										<option value="dil7">türk dili we edebiýaty</option>
+										<option value="dil8">pars dili we edebiýaty</option>
+										<option value="dil9">hytaý dili we edebiýaty</option>
+										<option value="zurnal1">žurnalistika</option>
+										<option value="hukuk1">hukuk öwreniş</option>
+										<option value="bakalawr1"> matematika we informatika bakawr</option>
+										  <option value="bakalawr2">informatika we bilimde maglumat tehnologiýalary</option>
+										
+										--->
+									</select>
+									<div class="invalid-feedback">
+									  hünäri saýlaň.
+									</div>
+								  </div>
+							
+								  <div class="col-12">
+									<div class="form-check">
+									  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+									  <label class="form-check-label" for="invalidCheck">
+										Şertler we düzgünler bilen ylalaşýaryn
+									  </label>
+									  <div class="invalid-feedback">
+										Tassyklamazdan ozal düzgünler bilen ylalaşmaly.
+									  </div>
+									</div>
+								  </div>
+								  <div class="col-12">
+									<button class="btn btn-primary" type="submit">Tassykla</button>
+								  </div>
+								</form>
+						  </div>
+						  <div class="tab-pane fade" id="nav-contact2" role="tabpanel" aria-labelledby="nav-contact2-tab">
+							<p> Aşakdaky resminamalaryň elektron nusgasyny pdf formatynda ýükläň</p>
+							  
+								<form class="was-validated">
+								<div class="col-md-4">
+									<div class="mb-3">
+									 <label for="form-control" class="form-label">-bellenen rusgada rektoryň adyna ýazylan arza</label>
+									<input type="file" class="form-control" aria-label="file example" required>
+									<div class="invalid-feedback">rektoryň adyna ýazylan arzany ýükle</div>
+								  </div>
+								</div>
+								<div class="col-md-4">
+									<div class="mb-3">
+									 <label for="form-control" class="form-label">-bellenen nusgadaky sowalnama</label>
+									<input type="file" class="form-control" aria-label="file example" required>
+									<div class="invalid-feedback">-sowalnamany ýükle</div>
+								  </div>
+								</div>
+								 <div class="col-md-4">
+									<div class="mb-3">
+									 <label for="form-control" class="form-label">-bilimi baradaky resminama</label>
+									<input type="file" class="form-control" aria-label="file example" required>
+									<div class="invalid-feedback">-bilim baradaky resminamany ýükle ýükle</div>
+								  </div>
+								</div>
+									<div class="col-md-4">
+									<div class="mb-3">
+									 <label for="form-control" class="form-label">-Türkmenistanyň Saglygy goraýyş we derman senagaty ministrligi tarapyndan bellenilen nusgadaky saglyk kepilnamasy</label>
+									<input type="file" class="form-control" aria-label="file example" required>
+									<div class="invalid-feedback">-saglyk kepilnamany ýükle</div>
+								  </div>
+								</div>
+									<div class="col-md-4">
+									<div class="mb-3">
+									 <label for="form-control" class="form-label">-3x4 ölçegdäki surat</label>
+									<input type="file" class="form-control" aria-label="file example" required>
+									<div class="invalid-feedback">-suraty ýükle</div>
+								  </div>
+								</div>
+									<div class="col-md-4">
+									<div class="mb-3">
+									 <label for="form-control" class="form-label">-işeýänler üçin zähmet depderçesiniň tassyklanan görnüşi</label>
+									<input type="file" class="form-control" aria-label="file example">
+									<div class="invalid-feedback">-zähmet depderçäni ýükle</div>
+								  </div>
+								</div>
+									<div class="col-md-4">
+									<div class="mb-3">
+									 <label for="form-control" class="form-label">-şahsy passport</label>
+									<input type="file" class="form-control" aria-label="file example" required>
+									<div class="invalid-feedback">-passporty ýükle</div>
+								  </div>
+								</div>
+									<div class="col-md-4">
+									<div class="mb-3">
+									 <label for="form-control" class="form-label">-Harby şadatnama ýa-da ýazylyş şahadatnamasy we ýaşaýan ýeri boýunça harby wekillikden güwähaty</label>
+									<input type="file" class="form-control" aria-label="file example" required>
+									<div class="invalid-feedback">-sowalnamany ýükle</div>
+								  </div>
+								</div>
+									<div class="col-12">
+									<div class="form-check">
+									  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+									  <label class="form-check-label" for="invalidCheck">
+										Şertler we düzgünler bilen ylalaşýaryn
+									  </label>
+									  <div class="invalid-feedback">
+										Tassyklamazdan ozal düzgünler bilen ylalaşmaly.
+									  </div>
+									</div>
+								  </div>
+								  <div class="col-12">
+									<button class="btn btn-primary" type="submit">Tassykla</button>
+								  </div>
+								</form>
+												
+						  </div>
+						</div>
+				  </div>
+				  <div class="col-md-2 themed-grid-col">.col-md-3</div>
+				</div>
+    
+
+				<footer class="py-5">
+					<div class="row">
+					  <div class="col-2">
+						<h5>Section</h5>
+						<ul class="nav flex-column">
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+						</ul>
+					  </div>
+				
+					  <div class="col-2">
+						<h5>Section</h5>
+						<ul class="nav flex-column">
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+						</ul>
+					  </div>
+				
+					  <div class="col-2">
+						<h5>Section</h5>
+						<ul class="nav flex-column">
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+						  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+						</ul>
+					  </div>
+				
+					  <div class="col-4 offset-1">
+						<form>
+						  <h5>Subscribe to our newsletter</h5>
+						  <p>Monthly digest of whats new and exciting from us.</p>
+						  <div class="d-flex w-100 gap-2">
+							<label for="newsletter1" class="visually-hidden">Email address</label>
+							<input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+							<button class="btn btn-primary" type="button">Subscribe</button>
+						  </div>
+						</form>
+					  </div>
+					</div>
+				
+					<div class="d-flex justify-content-between py-4 my-4 border-top">
+					  <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+					  <ul class="list-unstyled d-flex">
+						<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+						<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+						<li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+					  </ul>
+					</div>
+				  </footer>
+	  
+	  
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="js/forms.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/dynamic.js"></script>
+	
+
+    
+  </body>
+</html>
