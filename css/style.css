@@ -152,11 +152,26 @@ footer{
 
 /*  Documents */
 
+.salgylar .col-md-3{
+	display: inline-block;
+	margin-left: 5px;
+	
+	padding: 5px;
+}
+.salgylar{
+	margin-top: 10px;
+}
+.rayat{
+	margin-top: 10px;
+}
 
-
+.rayat .col-md-10{
+	margin-top: 10px;
+	padding: 5px;
+}
 .mag{
 	text-align: center;
-	font-family: "monserat", serifl
+	font-family: "monserat";
 }
 
 .mag-nav{

@@ -69,32 +69,39 @@
 								
 					  </div>
 					  </nav>
+
 						<div class="tab-content" id="nav-tabContent">
 						  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 						  <form class="row g-3 needs-validation" novalidate>
-							  <fieldset>
-								  <legend>Şahsyýet</legend>
-								  <div class="col-md-4">
+							<div class="container">
+								<div class="row">
+								  <div class="col-sm-4 rayat">
+									  <div class="col-2">
+										<h5>Raýat:</h5>
+									  </div>
+									
+									  <div class="col-md-10">
+			  
 									<label for="validationCustom01" class="form-label">Ady</label>
 									<input type="text" class="form-control" id="validationCustom01" value="" required>
 									<div class="valid-feedback">
 									  Dogry!
 									</div>
 								  </div>
-								  <div class="col-md-4">
+								  <div class="col-md-10">
 									<label for="validationCustom02" class="form-label">Familiýasy</label>
 									<input type="text" class="form-control" id="validationCustom02" value="" required>
 									<div class="valid-feedback">
 									  Dogry!
 									</div>
 								  </div>
-								  <div class="col-md-4">
+								  <div class="col-md-10">
 									<label for="validationCustomUsername" class="form-label">Atasynyň ady</label>
 									<div class="input-group has-validation">
 									  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend">
 									</div>
 								  </div>
-								  <div class="col-md-4">
+								  <div class="col-md-10">
 									<label for="validationCustom03" class="form-label">Milleti</label>
 									<input type="text" class="form-control" id="validationCustom03" required>
 									<div class="invalid-feedback">
@@ -117,110 +124,135 @@
 									  milletiňi giriz
 									</div>
 								  </div>
-								  
-							  <div class="col-md-1">
-									  <label for="validationCustom04" class="form-label">Passport Seria:</label>
-									  <select class="form-select" aria-label="Default select example" required>
-									  <option selected>sayla...</option>
-									  <option value="1">I-MR</option>
-									  <option value="2">II-MR</option>
-									  <option value="3">I-AG</option>
-									  <option value="4">II-AG</option>
-									  <option value="5">I-DZ</option>
-										<option value="6">II-DZ</option>
-										<option value="7">I-LB</option>
-										<option value="8">II-LB</option>
-										<option value="9">I-BN</option>
-										<option value="10">II-BN</option>
-										<option value="11">I-AH</option>
-										<option value="12">II-AH</option>
-									</select>
+								  <div class="container">
+									<div class="row">
+									  <div class="col">
+										<div class="col-md-10">
+											<label for="validationCustom04" class="form-label">Passport Seria:</label>
+											<select class="form-select" aria-label="Default select example" required>
+											<option selected>sayla...</option>
+											<option value="1">I-MR</option>
+											<option value="2">II-MR</option>
+											<option value="3">I-AG</option>
+											<option value="4">II-AG</option>
+											<option value="5">I-DZ</option>
+											  <option value="6">II-DZ</option>
+											  <option value="7">I-LB</option>
+											  <option value="8">II-LB</option>
+											  <option value="9">I-BN</option>
+											  <option value="10">II-BN</option>
+											  <option value="11">I-AH</option>
+											  <option value="12">II-AH</option>
+										  </select>
+									</div>
+									  </div>
+									  <div class="col">
+										<div class="col-md-10">
+											<label for="validationCustom15" class="form-label">Passport No:</label>
+										  <input type="text" class="form-control" id="validationCustom15" required>
+										</div>
+									  </div>
+									</div>
+									
+								  </div>
+							  
+							  
+							</div>
+								  <div class="col-sm-8 salgylar">
+									
+									<div class="col-5">
+										<h5>Doglan ýeri:</h5>
+									</div>
+										<div class="col-md-3">
+										  <label for="validationCustom05" class="form-label">Welaýaty</label>
+										  <select class="form-select" id="validationCustom04" required>
+											<option selected disabled value="">Saýla...</option>
+											<option value="0">Mary</option>
+											<option value="1">Ahal</option>
+											<option value="2">Lebap</option>
+											<option value="3">Daşoguz</option>
+											<option value="4">Balkan</option>
+											<option value="5">Aşgabat</option>
+										  </select>
+										  <div class="invalid-feedback">
+											Haýyş welaýaty saýlaň
+										  </div>
+										</div>
+										<div class="col-md-3">
+										  <label for="validationCustom06" class="form-label">Etraby</label>
+										  <input type="text" class="form-control" id="validationCustom05" required>
+										  <div class="invalid-feedback">
+											Haýyş etraby giriziň
+										  </div>
+										</div>
+										  <div class="col-md-3">
+											<label for="validationCustom07" class="form-label">Doglan senesi:</label>
+											  <input class="form-control" type="date" name="date" 
+												  placeholder="DD-MM-YYYY" value="" required>
+										</div>
+									<br/>
+									<div class="col4">
+										<h5>Häzirki wagtda ýaşaýan ýeri:</h5>
+									</div>
+										<div class="col-md-3">
+										  <label for="validationCustom08" class="form-label">Welaýaty</label>
+										  <select class="form-select" id="validationCustom04" required>
+											<option selected disabled value="">Saýla...</option>
+											<option value="0">Mary</option>
+											<option value="1">Ahal</option>
+											<option value="2">Lebap</option>
+											<option value="3">Daşoguz</option>
+											<option value="4">Balkan</option>
+											<option value="5">Aşgabat</option>
+										  </select>
+										  <div class="invalid-feedback">
+											Haýyş welaýaty saýlaň
+										  </div>
+										</div>
+										<div class="col-md-3">
+										  <label for="validationCustom09" class="form-label">Etrap/Şäher</label>
+										  <input type="text" class="form-control" id="validationCustom05" required>
+										  <div class="invalid-feedback">
+											Haýyş etraby giriziň
+										  </div>
+										</div>
+										  <div class="col-md-3">
+										  <label for="validationCustom10" class="form-label">Geňeşlik</label>
+										  <input type="text" class="form-control" id="validationCustom05" >
+										</div>
+										  <div class="col-md-3">
+										  <label for="validationCustom11" class="form-label">Köçe ady</label>
+										  <input type="text" class="form-control" id="validationCustom05" required>
+										  <div class="invalid-feedback">
+											Haýyş köçe adyny giriziň
+										  </div>
+										</div>
+										  <div class="col-md-3">
+										  <label for="validationCustom12" class="form-label">Jaý No:</label>
+										  <input type="text" class="form-control" id="validationCustom05" required>
+										  <div class="invalid-feedback">
+											Jaý nomerini giriziň
+										  </div>
+										</div>
+										  <div class="col-md-3">
+										  <label for="validationCustom13" class="form-label">Otag No:</label>
+										  <input type="text" class="form-control" id="validationCustom05">
+										</div>
+								  </div>
+								</div>
+								<div class="row">
+								  <div class="col-sm">col-sm</div>
+								  <div class="col-sm">col-sm</div>
+								  <div class="col-sm">col-sm</div>
+								</div>
 							  </div>
+							    
 									  
-							  <div class="col-md-2">
-								  <label for="validationCustom15" class="form-label">Passport No:</label>
-								<input type="text" class="form-control" id="validationCustom15" required>
-							  </div>
+							  
 							  <br/>
-							  <div class="col3">
-								  <h5>Doglan ýeri:</h5>
-							  </div>
-								  <div class="col-md-3">
-									<label for="validationCustom05" class="form-label">Welaýaty</label>
-									<select class="form-select" id="validationCustom04" required>
-									  <option selected disabled value="">Saýla...</option>
-									  <option value="0">Mary</option>
-									  <option value="1">Ahal</option>
-									  <option value="2">Lebap</option>
-									  <option value="3">Daşoguz</option>
-									  <option value="4">Balkan</option>
-									  <option value="5">Aşgabat</option>
-									</select>
-									<div class="invalid-feedback">
-									  Haýyş welaýaty saýlaň
-									</div>
-								  </div>
-								  <div class="col-md-3">
-									<label for="validationCustom06" class="form-label">Etraby</label>
-									<input type="text" class="form-control" id="validationCustom05" required>
-									<div class="invalid-feedback">
-									  Haýyş etraby giriziň
-									</div>
-								  </div>
-									<div class="col-md-3">
-									  <label for="validationCustom07" class="form-label">Doglan senesi:</label>
-										<input class="form-control" type="date" name="date" 
-											placeholder="DD-MM-YYYY" value="" required>
-								  </div>
-							  <br/>
-							</fieldset>
-							  <div class="col4">
-								  <h5>Häzirki wagtda ýaşaýan ýeri:</h5>
-							  </div>
-								  <div class="col-md-3">
-									<label for="validationCustom08" class="form-label">Welaýaty</label>
-									<select class="form-select" id="validationCustom04" required>
-									  <option selected disabled value="">Saýla...</option>
-									  <option value="0">Mary</option>
-									  <option value="1">Ahal</option>
-									  <option value="2">Lebap</option>
-									  <option value="3">Daşoguz</option>
-									  <option value="4">Balkan</option>
-									  <option value="5">Aşgabat</option>
-									</select>
-									<div class="invalid-feedback">
-									  Haýyş welaýaty saýlaň
-									</div>
-								  </div>
-								  <div class="col-md-3">
-									<label for="validationCustom09" class="form-label">Etrap/Şäher</label>
-									<input type="text" class="form-control" id="validationCustom05" required>
-									<div class="invalid-feedback">
-									  Haýyş etraby giriziň
-									</div>
-								  </div>
-									<div class="col-md-3">
-									<label for="validationCustom10" class="form-label">Geňeşlik</label>
-									<input type="text" class="form-control" id="validationCustom05" >
-								  </div>
-									<div class="col-md-3">
-									<label for="validationCustom11" class="form-label">Köçe ady</label>
-									<input type="text" class="form-control" id="validationCustom05" required>
-									<div class="invalid-feedback">
-									  Haýyş köçe adyny giriziň
-									</div>
-								  </div>
-									<div class="col-md-3">
-									<label for="validationCustom12" class="form-label">Jaý No:</label>
-									<input type="text" class="form-control" id="validationCustom05" required>
-									<div class="invalid-feedback">
-									  Jaý nomerini giriziň
-									</div>
-								  </div>
-									<div class="col-md-3">
-									<label for="validationCustom13" class="form-label">Otag No:</label>
-									<input type="text" class="form-control" id="validationCustom05">
-								  </div>				  	
+							  
+							
+							  				  	
 								  <div class="col-12">
 									<div class="form-check">
 									  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
@@ -542,7 +574,7 @@
 				  </div>
 				  <div class="col-md-2 themed-grid-col">.col-md-3</div>
 				</div>
-    
+				
 
 				<footer class="py-5">
 					<div class="row">
