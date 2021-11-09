@@ -152,7 +152,7 @@ footer{
 
 /*  Documents */
 
-.salgylar .col-md-3{
+.salgylar .col-md-3, .salgylar .col-md-6{
 	display: inline-block;
 	margin-left: 5px;
 	
@@ -162,12 +162,19 @@ footer{
 	margin-top: 10px;
 }
 .rayat{
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .rayat .col-md-10{
 	margin-top: 10px;
-	padding: 5px;
+	padding: 20px;
+}
+
+.col-md-11{
+	margin: 5px;
+}
+label{
+	margin-top: 10px;
 }
 .mag{
 	text-align: center;
@@ -234,4 +241,34 @@ span {
 fieldset{
 	font-size: 14px;
 	border:#1d1d1d solid;
+}
+
+/* jynsy ekek zenan */
+
+.show-inline{
+	display: inline-flex;
+	margin-left: 20px;
+}
+
+/* Boshluk */
+.salgylar .col-10{
+	margin-top: 5px;
+}
+.salgylar .boshluk{
+	min-height: 35px;
+
+}
+
+.salgylar h5{
+	margin-bottom: 8px;
+}
+
+.hed{
+	display: inline-flex;
+	padding-left: 5px;
+	
+}
+
+.col-md-11 .form-check-inline .form-check-label{
+	margin-top: 0px;
 }
