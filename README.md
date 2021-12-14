@@ -1,6 +1,5 @@
-# Dalasgar-onlayn
-Türkmenistanyň ýokary okuw mekdeplerine onlaýn resminama tabşyrma portaly
+# Online Application Portal 
+Online application portal for Turkmen State University
 
-1. Design tazelemeli
-2. Hunari gozlenyan etmeli 
-3. Uniwer saylananda ugurlar we her ugra degishli hunarler dinamik saylanmaly 
+1. Only frontend site is done
+2. Using only HTML +CSS+ JS+ Bootstrap 
